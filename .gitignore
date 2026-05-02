@@ -1,4 +1,5 @@
 .hugo_build.lock
-hugo-theme-reimu
 /public
 /resources
+/themes
+node_modules
