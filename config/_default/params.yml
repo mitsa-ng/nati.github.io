@@ -260,7 +260,7 @@ dark_mode:
   # true means that the dark mode is enabled by default
   # false means that the dark mode is disabled by default
   # auto means that the dark mode is automatically switched according to the system settings
-  enable: auto # true | false | auto
+  enable: true # true | false | auto
 
 ########################################
 # Analytics

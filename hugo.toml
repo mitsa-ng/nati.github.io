@@ -1,9 +1,9 @@
 baseURL = 'https://nati.github.io/'
-languageCode = 'en'
+languageCode = 'zh-TW'
 title = 'Nati Posts on this site'
 theme = 'hugo-theme-reimu'
 
-defaultContentLanguage = 'en'
+defaultContentLanguage = 'zh-TW'
 [languages]
 [languages.en]
 languageName = 'English'
