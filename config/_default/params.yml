@@ -120,7 +120,7 @@ sidebar:
     show_common: false # whether to show common sidebar, ignored on mobile devices
 
 social:
-  email: xingencai060@gmail.com 
+  mailto: xingencai060@gmail.com 
   github: https://github.com/mitsa-ng
   # google: https://plus.google.com/yourname
   # twitter: https://twitter.com/yourname
