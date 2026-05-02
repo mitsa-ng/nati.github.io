@@ -14,9 +14,7 @@ menu:
   - name: about
     url: "about"
     icon:
-  - name: friend
-    url: "friend"
-    icon:
+#  - name: friend    url: "friend"    icon:
 
 mainSections: ["post"]
 # 年，月，日及时间的格式化样式
@@ -26,18 +24,18 @@ monthFormat: "2006-01"
 dateFormat: "2006-01-02"
 timeFormat: "2006-01-02 15:04:05"
 
-author: D-Sketon
-email: xxx@example.com
-description: "少女祈祷中..."
-# subtitle: "少女祈祷中..."
+author: Nati
+email: xingencai060@gmail.com
+description: "少年思考中..."
+# subtitle: "少年思考中..."
 subtitle:
   typing:
-    enable: false
+    enable: true
     strings:
-      # - Sentence 1
-      # - Sentence 2
-      # - Sentence 3
-      # - Sentence 4
+       - Hello, world!
+       - Never gonna give you up!
+       - cluaded thinking
+       - sudo rm -rf /
     typeSpeed: 100              # 打字速度（毫秒/字符） 
     backSpeed: 50               # 删除速度（毫秒/字符）
     backDelay: 2000             # 打完一句话后，等待时间
@@ -47,9 +45,10 @@ subtitle:
     showCursor: true            # 是否显示闪烁的字符
     cursorChar: "|"             # 字符
     smartBackspace: false       # 智能退格，只删除不同的部分
-  text: "少女祈祷中..."        # 当 typing.enable = false 时使用
+  text: "少年思考中..."        # 当 typing.enable = false 时使用
 
-banner: "images/banner.webp"
+banner: false
+#"images/banner.webp"
 # You can also write it in the form of the following url
 # banner: "https://example.com"
 
@@ -69,7 +68,8 @@ avatar: "avatar.webp"
 # Control the display of the post cover
 # If not set, the banner image will be displayed by default
 # Its priority is lower than the cover in the Front-matter
-cover: # https://example.com / false / rgb(255,117,117)
+cover: false
+#  https://example.com / false / rgb(255,117,117)
 
 # Control the display of the post toc
 # Its priority is lower than the toc in the Front-matter
@@ -102,12 +102,12 @@ copyright:
 #   All website licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></div>
 
 footer:
-  since: 2020 # 2020-current year
+  since: 2026 
   powered: true
   count: true
   busuanzi: true
   icon:
-    url: "../images/taichi.png" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
+    url: "" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
     rotate: true
     mask: true # whether to use the images as a mask
 
@@ -117,11 +117,11 @@ sidebar:
   position: right
   menu: true  # whether to show the sidebar menu button, ignored on mobile devices
   article:
-    show_common: true # whether to show common sidebar, ignored on mobile devices
+    show_common: false # whether to show common sidebar, ignored on mobile devices
 
 social:
-  # email: mailto:xxx@gmail.com
-  # github: https://github.com/yourname
+  email: xingencai060@gmail.com 
+  github: https://github.com/mitsa-ng
   # google: https://plus.google.com/yourname
   # twitter: https://twitter.com/yourname
   # facebook: https://www.facebook.com/yourname
@@ -212,7 +212,7 @@ triangle_badge:
 anchor_icon: # default use '#' icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1', you can also use false to hide anchor icon
 
 reimu_cursor:
-  enable: true
+  enable: false
   cursor:
     default: ../images/cursor/reimu-cursor-default.png  # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
     pointer: ../images/cursor/reimu-cursor-pointer.png
@@ -458,11 +458,11 @@ algolia_search:
 preloader:
   enable: true
   text: 
-    zh-CN: 少女祈祷中...
-    zh-TW: 少女祈禱中...
-    en: Loading...
-    ja: 少女祈祷中...
-    pt-BR: Carregando...
+    zh-CN: 少年思考中...
+    zh-TW: 少年思考中...
+    en: thinking...
+    ja: 少年思考中...
+    pt-BR: Pensando...
   icon: # default use inline svg for fast speed, you can use a image url, like '/images/taichi.png'
   rotate: true # whether to rotate the icon
 
@@ -494,7 +494,7 @@ animation:
 
 # see https://github.com/D-Sketon/mouse-firework
 firework:
-  enable: true
+  enable: false
   disable_on_mobile: false
   options:
     excludeElements: ["a", "button"]
@@ -586,10 +586,10 @@ sponsor:
 
 # Share
 share:
-  # - facebook
-  # - twitter
-  # - linkedin
-  # - reddit
+   - facebook
+   - twitter
+   - linkedin
+   - reddit
   # - weibo
   # - qq
   # - weixin
